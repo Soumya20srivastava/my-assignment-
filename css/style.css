@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .section {
+    width: 33.33%;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .section-title {
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: lightgreen;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  @media (max-width: 991px) {
+    .section {
+      width: 50%;
+    }
+  
+    #section3 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
